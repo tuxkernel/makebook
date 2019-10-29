@@ -41,7 +41,7 @@ For letterpaper:*
 
 *Use it under your own risk! You're warned!
 
-# NOTE: This project originally is hosted in:
+### NOTE: This project originally is hosted in:
 
 https://github.com/dgoodmaniii/makebook
 
