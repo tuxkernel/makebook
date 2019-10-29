@@ -2,12 +2,12 @@
 
 ## Requirements:
 
-- od
-- pdflatex
-- pdfinfo
-- pdftk
-- dc
-- bc
+- od (8.26)
+- pdflatex (3.14159265)
+- pdfinfo (0.48.0)
+- pdftk (2.02)
+- dc (1.3.95)
+- bc (1.06.95)
 
 ## Installation:
 
