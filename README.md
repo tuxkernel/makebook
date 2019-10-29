@@ -46,3 +46,5 @@ For letterpaper:*
 https://github.com/dgoodmaniii/makebook
 
 https://gitlab.com/dgoodmaniii/makebook/
+
+under **GNU General Public License v3.0.**
