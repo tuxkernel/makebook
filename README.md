@@ -31,7 +31,7 @@ For doubleletter:
 
 **makebook -v -t folio -i original-file.pdf -o output-file.pdf**
 
-For oficio paper:
+For oficiopaper:
 
 **makebook -v -t folio -H 216mm -w 340mm -s 0.8333 -i original-file.pdf -o output-file.pdf**
 
@@ -40,3 +40,8 @@ For letterpaper:*
 **makebook -v -t folio -H 8.5in -w 11in -s 0.6333 -i original-file.pdf -o output-file.pdf**
 
 *Use it under your own risk! You're warned!
+
+# NOTE: This project originally is hosted in:
+
+https://github.com/dgoodmaniii/makebook
+https://gitlab.com/dgoodmaniii/makebook/
