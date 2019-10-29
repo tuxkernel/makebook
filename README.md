@@ -44,4 +44,5 @@ For letterpaper:*
 # NOTE: This project originally is hosted in:
 
 https://github.com/dgoodmaniii/makebook
+
 https://gitlab.com/dgoodmaniii/makebook/
