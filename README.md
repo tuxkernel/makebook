@@ -1,5 +1,14 @@
 # Impress PDF pages on sheets for folding and binding
 
+## Requirements:
+
+- od
+- pdflatex
+- pdfinfo
+- pdftk
+- dc
+- bc
+
 ## Installation:
 
 Copy makebook bash script into /usr/bin
