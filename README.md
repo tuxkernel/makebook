@@ -31,11 +31,11 @@ For doubleletter:
 
 **makebook -v -t folio -i original-file.pdf -o output-file.pdf**
 
-For Oficio paper:
+For oficio paper:
 
 **makebook -v -t folio -H 216mm -w 340mm -s 0.8333 -i original-file.pdf -o output-file.pdf**
 
-For Letterpaper:*
+For letterpaper:*
 
 **makebook -v -t folio -H 8.5in -w 11in -s 0.6333 -i original-file.pdf -o output-file.pdf**
 
