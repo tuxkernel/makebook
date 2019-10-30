@@ -9,7 +9,7 @@
 - dc (1.3.95)
 - bc (1.06.95)
 
-od, dc and bc, can be installed throught coreutils package:
+od, dc and bc, can be installed throught **coreutils** package:
 
 **$ sudo apt-get install coreutils**
 
