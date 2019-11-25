@@ -33,15 +33,15 @@ That's it.
 
 For doubleletter:
 
-**makebook -v -t folio -i original-file.pdf -o output-file.pdf**
+**makebook -v -t folio -n 2 -i original-file.pdf -o output-file.pdf**
 
 For oficiopaper:
 
-**makebook -v -t folio -H 216mm -w 340mm -s 0.8333 -i original-file.pdf -o output-file.pdf**
+**makebook -v -t folio -H 216mm -w 340mm -s 0.8333 -n 2 -i original-file.pdf -o output-file.pdf**
 
 For letterpaper:*
 
-**makebook -v -t folio -H 8.5in -w 11in -s 0.6333 -i original-file.pdf -o output-file.pdf**
+**makebook -v -t folio -H 8.5in -w 11in -s 0.6333 -n 2 -i original-file.pdf -o output-file.pdf**
 
 *Use it under your own risk! You're warned!
 
