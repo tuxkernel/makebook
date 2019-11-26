@@ -31,7 +31,7 @@ That's it.
 
 ## Examples:
 
-For doubleletter:
+For doubleletterpaper:
 
 **makebook -v -t folio -n 2 -i original-file.pdf -o output-file.pdf**
 
