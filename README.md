@@ -45,10 +45,11 @@ For letterpaper:*
 
 *Use it under your own risk! You're warned!
 
-## Definitions:
+## Signatures:
 
-**-n 2 (Quarto - 8 pages)
-**-n 4 (Octavo - 16 pages)
+**-n 1 (Folio - 4 pages)**
+**-n 2 (Quarto - 8 pages)**
+**-n 4 (Octavo - 16 pages)**
 
 ### This project originally is hosted in:
 
