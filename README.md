@@ -45,6 +45,11 @@ For letterpaper:*
 
 *Use it under your own risk! You're warned!
 
+## Definitions:
+
+**-n 2 (Quarto - 8 pages)
+**-n 4 (Octavo - 16 pages)
+
 ### This project originally is hosted in:
 
 https://gitlab.com/dgoodmaniii/makebook/
