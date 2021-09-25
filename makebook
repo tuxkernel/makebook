@@ -34,7 +34,7 @@
 PATH=/bin:/usr/bin:/usr/local/bin ; export PATH
 umask 033
 # define our revision number variable for rcs
-REVISION="2.1"
+REVISION="2.2"
 # define error codes
 E_WRONG_ARGS=64		# too many or few args
 E_BAD_SIG_TYPE=65	# invalid type of signature
@@ -88,8 +88,7 @@ command -v bc >/dev/null 2>&1 ||
 # print the version information and exit successfully
 versionfunc ()
 {
-	echo "makebook v${REVISION}.  Copyright (C) 2011, Donald P."
-	echo "Goodman III."
+	echo "makebook v${REVISION}.  Copyright (C) 2011, Donald P Goodman III."
 	echo "This program comes with ABSOLUTELY NO WARRANTY."
 	echo "This is free software, and you are welcome to "
 	echo "redistribute it under certain conditions; see "
@@ -263,6 +262,9 @@ then
 	cp "$FILE_NAME" "$NEW_FILE_NAME"
 else
 	FILE_NAME="book.pdf"
+	if [ $VERBOSE -eq 1 ]; then
+	   echo "makebook:  No input file named; using stdin..."
+	fi
 	cat /dev/stdin > "$NEW_FILE_NAME"
 fi
 # declare holder variable for pdftk
@@ -287,8 +289,8 @@ fi
 
 # get some information about our source document
 NUM_PAGES=`pdfinfo "$NEW_FILE_NAME" | awk '/Pages:/ {print $2}'`;
-SRC_PAGE_WIDTH=`pdfinfo "$NEW_FILE_NAME" | awk '/Page\ size:/ {print $3}'`;
-SRC_PAGE_HEIGHT=`pdfinfo "$NEW_FILE_NAME" | awk '/Page\ size:/ {print $5}'`;
+SRC_PAGE_WIDTH=`pdfinfo "$NEW_FILE_NAME" | awk '/Page size:/ {print $3}'`;
+SRC_PAGE_HEIGHT=`pdfinfo "$NEW_FILE_NAME" | awk '/Page size:/ {print $5}'`;
 # find the number of pages we'll have per signature
 PAGES_PER_SIG=$(dc -e "$PAGES_PER_SIG $SECT_TYPE * p")
 # determine if extra pages will be necessary
