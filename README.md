@@ -1,5 +1,7 @@
 # Bash script for impressing multiple PDF pages on sheets (signatures) for folding and binding
 
+![Sample Run]()
+
 ## Requirements:
 
 - od (8.26) 
