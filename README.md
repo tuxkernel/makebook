@@ -1,6 +1,6 @@
 # Bash script for impressing multiple PDF pages on sheets (signatures) for folding and binding
 
-![Sample Run]()
+![Sample Run](https://github.com/tuxkernel/makebook/blob/master/makebook.jpg)
 
 ## Requirements:
 
